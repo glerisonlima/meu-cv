@@ -11,7 +11,7 @@ type EducacaoProps = {
 
 export function Educacao ({data, status, titulo, local, link}: EducacaoProps) {
     return (
-        <div className='mt-2'>
+        <div className='hover:bg-zinc-900 p-4 rounded-lg ml-[-16px] hover:animate-pulse'>
             <span className="text-xs flex items-center gap-2 text-slate-400"><CalendarDays size={12}/> {data} - {status}</span>
             <p className='text-lg'>{titulo} - {local}</p>
             {link && (
@@ -19,8 +19,7 @@ export function Educacao ({data, status, titulo, local, link}: EducacaoProps) {
                 <GraduationCap size={12}/>
                 Certificado
             </a>
-            )}
-            
+            )}            
         </div>
     )
 }
