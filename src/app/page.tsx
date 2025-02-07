@@ -81,11 +81,22 @@ export default function Home() {
             data="4 anos 3 meses" 
             datafim="jun 2016" 
             descricao="Análise de banco de dados, Atendimento ao cliente N2, suporte ao
-                        sistema Sypdv"/>
+                        sistema Syspdv"/>
       </section>
       <section className='w-full'>
         <h2>Educação / Cursos</h2>
         <Educacao data="2024.1" status="(Concluído)" local="Estacio - FIC" titulo="Analise e desenvolvimento de sistemas" />
+        <Educacao data="2024.1" status="(Concluído)" local="Rocketseat" titulo="Reactjs Ignite" />
+        <Educacao data="2024.1" status="(Concluído)" local="Rocketseat" titulo="React Native Ignite" />
+        <Educacao data="2024.1" status="(Concluído)" local="Hcode" titulo="Javascript curso completo" />
+        <Educacao data="2024.1" status="(Concluído)" local="Dell" titulo="Java Básico - Programação Orientada a Objetos com Java" />
+        <Educacao data="2024.1" status="(Concluído)" local="Dell" titulo="Java Intermediário - Desenvolvimento de aplicações WEB com Java e banco de dados" />
+        <Educacao data="2024.1" status="(Concluído)" local="Marcio Ballen" titulo="Spring Boot & MVC com AJAX" />
+        <Educacao data="09/2024" link="https://app.rocketseat.com.br/certificates/45ecd517-fb2b-4a0a-b166-3e0f3c9f8ed7" status="(Concluído)" local="Rocketseat" titulo="NLW Pocket: Javascript - Full-stack Intermediário" />
+        <Educacao data="08/2024" link="https://app.rocketseat.com.br/certificates/cca00bb8-aba3-4cac-9bc7-a0541efc3f17" status="(Concluído)" local="Rocketseat" titulo="Fundamentos do .NET" />
+        <Educacao data="04/2024" link="https://app.rocketseat.com.br/certificates/0d095e37-afc5-4df8-9bd5-b9250f31fed1" status="(Concluído)" local="Rocketseat" titulo="NLW Unite - Nodejs" />
+        <Educacao data="08/2023" link="https://app.rocketseat.com.br/certificates/ec077efa-129c-4921-8276-9cc7c351a97e" status="(Concluído)" local="Rocketseat" titulo="ReactJS" />
+        <Educacao data="01/2024" status="(Concluído)" local="CertiProf" titulo="Scrum Foundation Professional Certification - SFPC" />
       </section>
       <div className='fixed bottom-3 right-14'>
         <button className='bg-orange-700 p-4 rounded-full print:hidden' onClick={() => window.print()}>
